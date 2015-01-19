@@ -1,7 +1,7 @@
 FORMAT: 1A
 HOST: http://127.0.0.1:3000
 
-# userappiomock
+# Userapp.io Mock API
 A simple mock api for [Userapp.io](https://userapp.io/) that mocks api responses. For offline local development, install api-mock (`npm -g install api-mock`) and run: 
 
     git clone https://gist.github.com/c0812bc687804b526a2b.git userappiomock
@@ -26,6 +26,8 @@ Then in `.run()`, override the userapp configuration to use the local mock api:
     UserApp.setDebug(true);
 
 All you sign-ups will act like they were successful but email needs to be verified. All logins will be successful (of course no email validation is necessary). The userapp id can be set to anything, it is completely ignored.
+
+Mock API documentation is available on [http://docs.userappiomock.apiary.io/]()
 
 Happy offline dev :)
 
