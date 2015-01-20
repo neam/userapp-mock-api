@@ -7,7 +7,7 @@ A simple mock api for [Userapp.io](https://userapp.io/) that mocks api responses
     git clone https://gist.github.com/c0812bc687804b526a2b.git userappiomock
     api-mock userappiomock/userapp.io-mock-api-blueprint.md --port 3000 --cors-disable false
     
-The local api is then available on https://localhost:3000/
+The local api is then available on http://localhost:3000/
 
 To use it, make sure you have downloaded `https://app.userapp.io/js/userapp.client.js` and `https://app.userapp.io/js/angularjs.userapp.js` and include them, for instance:
 
@@ -25,9 +25,9 @@ Then in `.run()`, override the userapp configuration to use the local mock api:
     UserApp.setSecure(false);
     UserApp.setDebug(true);
 
-All you sign-ups will act like they were successful but email needs to be verified. All logins will be successful (of course no email validation is necessary). The userapp id can be set to anything, it is completely ignored.
+All your sign-ups will act like they were successful but email needs to be verified. All logins will be successful (of course no email validation is necessary). The userapp id can be set to anything, it is completely ignored.
 
-Mock API documentation is available on [http://docs.userappiomock.apiary.io/]()
+Mock API documentation is available on [http://docs.userappiomock.apiary.io/](http://docs.userappiomock.apiary.io/)
 
 Happy offline dev :)
 
