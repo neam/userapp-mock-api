@@ -4,7 +4,7 @@ HOST: http://127.0.0.1:3000
 # Userapp.io Mock API
 A simple mock api for [Userapp.io](https://userapp.io/) that mocks api responses. For offline local development, install api-mock (`npm -g install api-mock`) and run: 
 
-    git clone https://gist.github.com/c0812bc687804b526a2b.git userappiomock
+    git clone https://github.com/neam/userapp-mock-api.git userappiomock
     api-mock userappiomock/userapp.io-mock-api-blueprint.md --port 3000 --cors-disable false
     
 The local api is then available on http://localhost:3000/
