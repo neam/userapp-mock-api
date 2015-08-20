@@ -62,7 +62,26 @@ Resources corresponding to version 1 of the Userapp.io API
 
 + Response 200 (application/json)
 
-        [{"user_id":"a1a1a1a1a1a1a1a1a1a1a1","first_name":"John Doe","last_name":null,"email":"john.doe@example.com","email_verified":true,"login":"john.doe@example.com","properties":{},"features":{},"permissions":{},"subscription":null,"lock":null,"locks":[],"ip_address":"127.0.0.1","last_login_at":1421692047,"updated_at":1421692047,"created_at":1421691810}]
+        [
+          {
+            "user_id": "a1a1a1a1a1a1a1a1a1a1a1",
+            "first_name": "John Doe",
+            "last_name": null,
+            "email": "john.doe@example.com",
+            "email_verified": true,
+            "login": "john.doe@example.com",
+            "properties": {},
+            "features": {},
+            "permissions": {},
+            "subscription": null,
+            "lock": null,
+            "locks": [],
+            "ip_address": "127.0.0.1",
+            "last_login_at": 1421692047,
+            "updated_at": 1421692047,
+            "created_at": 1421691810
+          }
+        ]
 
 ## Token Heartbeat [/v1/token.heartbeat]
 ### Get user information [POST]
