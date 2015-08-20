@@ -70,9 +70,35 @@ Resources corresponding to version 1 of the Userapp.io API
             "email": "john.doe@example.com",
             "email_verified": true,
             "login": "john.doe@example.com",
-            "properties": {},
+            "properties": {
+              "default_api_endpoint_slug": {
+                "value": "local",
+                "override": true
+              },
+              "api_endpoints": {
+                "value": "[{\"slug\": \"local\"}]",
+                "override": true
+              },
+              "original_mixpanel_distinct_id": {
+                "value": "a1a1a1a1a1a1a1a1a1a1a1a1a1",
+                "override": true
+              },
+              "signup_plan": {
+                "value": null,
+                "override": false
+              }
+            },
             "features": {},
-            "permissions": {},
+            "permissions": {
+              "account_in_data_profile__example": {
+                "value": true,
+                "override": true
+              },
+              "admin_in_data_profile__example": {
+                "value": true,
+                "override": true
+              }
+            },
             "subscription": null,
             "lock": null,
             "locks": [],
@@ -82,7 +108,7 @@ Resources corresponding to version 1 of the Userapp.io API
             "created_at": 1421691810
           }
         ]
-
+        
 ## Token Heartbeat [/v1/token.heartbeat]
 ### Get user information [POST]
 + Request (application/json)
